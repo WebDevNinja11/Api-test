@@ -1,6 +1,90 @@
-[{
-  "name":"darth vader",
-  "age":"undefined",
-  "children":"2",
-  "deceased":"true"
-}]
+[
+    {
+        "universe": "Ninjago",
+        "characters": [
+            {
+                "name": "Lloyd Garmadon",
+                "role": "Green Ninja",
+                "element": "Energy",
+                "allies": ["Kai", "Jay", "Cole", "Zane", "Nya"],
+                "enemies": ["Garmadon", "Overlord"]
+            },
+            {
+                "name": "Kai",
+                "role": "Red Ninja",
+                "element": "Fire",
+                "allies": ["Lloyd", "Jay", "Cole", "Zane", "Nya"],
+                "enemies": ["Skulkin", "Serpentine"]
+            },
+            {
+                "name": "Jay",
+                "role": "Blue Ninja",
+                "element": "Lightning",
+                "allies": ["Lloyd", "Kai", "Cole", "Zane", "Nya"],
+                "enemies": ["Nadakhan", "Djinn"]
+            },
+            {
+                "name": "Zane",
+                "role": "White Ninja",
+                "element": "Ice",
+                "allies": ["Lloyd", "Kai", "Jay", "Cole", "Nya"],
+                "enemies": ["Nindroid", "Overlord"]
+            },
+            {
+                "name": "Cole",
+                "role": "Black Ninja",
+                "element": "Earth",
+                "allies": ["Lloyd", "Kai", "Jay", "Zane", "Nya"],
+                "enemies": ["Ghost Warriors", "Master Yang"]
+            },
+            {
+                "name": "Nya",
+                "role": "Water Ninja",
+                "element": "Water",
+                "allies": ["Lloyd", "Kai", "Jay", "Cole", "Zane"],
+                "enemies": ["Skulkin", "Serpentine"]
+            }
+        ]
+    },
+    {
+        "universe": "Star Wars",
+        "characters": [
+            {
+                "name": "Luke Skywalker",
+                "role": "Jedi Knight",
+                "allies": ["Leia Organa", "Han Solo", "Obi-Wan Kenobi", "Yoda"],
+                "enemies": ["Darth Vader", "Emperor Palpatine"]
+            },
+            {
+                "name": "Darth Vader",
+                "role": "Sith Lord",
+                "allies": ["Emperor Palpatine"],
+                "enemies": ["Luke Skywalker", "Obi-Wan Kenobi", "Rebel Alliance"]
+            },
+            {
+                "name": "Leia Organa",
+                "role": "Princess and Rebel Leader",
+                "allies": ["Luke Skywalker", "Han Solo", "Rebel Alliance"],
+                "enemies": ["Darth Vader", "Empire"]
+            },
+            {
+                "name": "Han Solo",
+                "role": "Smuggler",
+                "allies": ["Luke Skywalker", "Leia Organa", "Chewbacca"],
+                "enemies": ["Empire"]
+            },
+            {
+                "name": "Yoda",
+                "role": "Jedi Master",
+                "allies": ["Luke Skywalker", "Obi-Wan Kenobi"],
+                "enemies": ["Emperor Palpatine", "Darth Vader"]
+            },
+            {
+                "name": "Emperor Palpatine",
+                "role": "Sith Emperor",
+                "allies": ["Darth Vader"],
+                "enemies": ["Rebel Alliance", "Luke Skywalker", "Yoda"]
+            }
+        ]
+    }
+]
